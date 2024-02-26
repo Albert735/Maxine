@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+   font-family: 'Goldfish';
+   src: url('/public/Fonts/Goldfish.ttf') format('truetype');
+}
+
+
+.goldfish{
+    font-family: "Goldfish" ,'serif';
+}
+
+.bg-image{
+    background-image: url('/src/Assets/Images/fbf0fd77567e4dd7119dc58b66d8e56a.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center; /* Center horizontally and vertically */
+    /* background-size: cover;  */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    object-fit: contain;
+ 
+    
+   
+
+}
